@@ -43,7 +43,7 @@ function Token() {
 
   return (
     <div className='customContainer tokenContainer'>
-        <div className='tokenBox' style={{margin:'30px auto'}}>
+        <div className='tokenBox' style={{padding:'30px 0'}}>
             <div className='tokenLogo'>
                 <Logo />
             </div>
