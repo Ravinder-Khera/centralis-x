@@ -60,7 +60,7 @@ function Token() {
                 <div className='tokenStageName'>
                     Stage 3
                 </div>
-                <div className='tokenBoxBg' style={{padding:'0 10px 10px 10px',marginTop:'12px'}}>
+                <div className='tokenBoxBg' style={{padding:'0 10px 10px 15px',marginTop:'12px'}}>
                     <div className='barBox'>
                         <div className='text-start'>
                             <h3 className='heading'>Token Price</h3>
@@ -84,7 +84,7 @@ function Token() {
                     </div>
                 </div>
             </div>
-            <div className='tokenHeading d-grid' style={{marginTop:'-10px'}}>
+            <div className='tokenHeading d-grid' style={{marginBottom:'15px'}}>
                 <span>Amount accumulated at each stage.</span>
                 <span>Stage 4 prices will increase to $0.0004</span>
             </div>
@@ -93,7 +93,7 @@ function Token() {
                 <a className='linkClass' href='/#'>Add Funds</a>
             </div>
 
-            <div className='tokenHeading d-flex flex-wrap justify-content-center align-items-center' style={{gap:'48px'}}>
+            <div className='tokenHeading d-flex flex-wrap justify-content-center align-items-center' style={{gap:'48px',marginTop:'15px'}}>
                 <a className='socialLinks' href='/#'><IcBaselineTelegram /></a>
                 <a className='socialLinks' href='/#'><RiInstagramFill /></a>
                 <a className='socialLinks whiteBg' style={{width:'42px',height:'42px'}} href='/#'><MdiYoutube /></a>

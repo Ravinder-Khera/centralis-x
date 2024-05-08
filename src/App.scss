@@ -39,7 +39,7 @@ body{
             background: #FFFFFF14;
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: 5px;
             max-width: 800px;
             @media screen and (max-width:767px) {
                 padding: 30px;
@@ -57,7 +57,7 @@ body{
                     line-height: 35.28px;                
                 }
                 .tokenMain{
-                    color: #FDA501;
+                    color: #3083AF;
                     font-size: 48px;
                     font-weight: 700;
                     line-height: 65.6px;                    
@@ -95,7 +95,7 @@ body{
                         }
 
                         .amount{
-                            color: #FDA501;
+                            color: #3083AF;
                             font-size: 24px;
                             font-weight: 700;
                             line-height: 35.28px;  
@@ -108,7 +108,7 @@ body{
                         height: 8px;
                         border-radius: 8px;
                         .progressAmount{
-                            background: #FDA501;
+                            background: #3083AF;
                             border-radius: 8px;
                             position: relative;
                             height: 100%;
@@ -138,7 +138,7 @@ body{
                             align-items: center;
                             gap: 5px;
                             .timeStamp{
-                                color: #D08903;
+                                color: #3083AF;
                                 font-family: "Inter", sans-serif;
                                 font-size: 38px;
                                 font-weight: 600;
@@ -180,18 +180,18 @@ body{
         background: transparent;
     }
     .colorBtn{
-        background: linear-gradient(90deg, #FDA501 0%, #F4C05E 50.79%, #FDA501 100%);
+        background: #0C496A;
         padding: 15px 28px;
         border-radius: 47px;
         font-size: 22px;
         font-weight: 600;
-        line-height: 30.24px;
-        color: #000;        
+        line-height: 28.24px;
+        color: #fff;        
         border: none;
         max-width: 500px;
     }
     .linkClass{
-        color: #FDA501;
+        color: #3083AF;
         text-decoration: none;
         font-size: 18px;
         font-weight: 400;
@@ -204,7 +204,7 @@ body{
             left: 0;
             width: 100%;
             height: 1px;
-            background: #FDA501;
+            background: #3083AF;
         }               
     }
     .socialLinks{
